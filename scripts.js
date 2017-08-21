@@ -18,12 +18,12 @@ Phone.prototype.bargainfinder = function() {
 
 }
 
-var SamsungGalaxyS6 = new Phone( 'Samsung', 'Galaxy', 150, 'black' );
-var iPhone6S = new Phone('iPhone', '6S',  200, 'white');
-var HuaweiP43 = new Phone('Huawei', 'P43', 180, 'gray');
+var samsungGalaxyS6 = new Phone( 'Samsung', 'Galaxy', 150, 'black' );
+var iphone6S = new Phone('iPhone', '6S',  200, 'white');
+var huaweiP43 = new Phone('Huawei', 'P43', 180, 'gray');
 
-SamsungGalaxyS6.printinfo();SamsungGalaxyS6.bargainfinder();
-iPhone6S.printinfo();iPhone6S.bargainfinder();
-HuaweiP43.printinfo();HuaweiP43.bargainfinder();
+samsungGalaxyS6.printinfo();samsungGalaxyS6.bargainfinder();
+iphone6S.printinfo();iphone6S.bargainfinder();
+huaweiP43.printinfo();huaweiP43.bargainfinder();
 
 
